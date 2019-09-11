@@ -34,3 +34,10 @@ If you have any issues or questions, please contact me at the following;
 
 
 <<< Authored by Project Developer - Kyle Christie (kc101010) >>>
+
+
+<!< My Links >!>
+
+	https://github.com/kc101010
+	https://kc101010.itch.io
+	https://www.sololearn.com/Profile/4051735
