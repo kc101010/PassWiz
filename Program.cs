@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.Text;
 
 
@@ -42,13 +43,6 @@ namespace PassWizExpandedEdition
                     ValidatePassword();
                     break;
 
-                case "-v":
-                    InvalidMessage();
-                    break;
-
-                case "-g":
-                    InvalidMessage();
-                    break;
 
                 case "HELP":
                     PrintHelpMessage();
@@ -199,57 +193,58 @@ namespace PassWizExpandedEdition
             password_For_validation = Console.ReadLine();
 
 
-            char[] valPasswordSubstring = new char[password_For_validation.Length];
-            valPasswordSubstring = password_For_validation.ToCharArray();
-
-         
+            char[] valPasswordSubstring = password_For_validation.ToCharArray();
+          
 
             bool isvalid_Password = false;
-            bool isvalid_Length = false;
-            bool isvalid_SpeChars = false;
+          
+            //bool isvalid_SpeChars = false;
 
-               char[] passwordComparison = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '@', '#', '!', '?', '%' , '$', '£', '&', '*', '(', ')' };
+            var passwordComparison = new List<char> { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '@', '#', '!', '?', '%' , '$', '£', '&', '*', '(', ')' };
             
 
-       
+            int CharCounter = 0;
 
-            
+            //$V91O9z?#e
 
-            if (password_For_validation.Length >= 8)
+            foreach (char element in passwordComparison)
             {
-                isvalid_Length = true;
-            }
-            else
-            {
-                isvalid_Length = false;
-
-            }
-
-            for (int f = 0; f < password_For_validation.Length; f++)
-            {
-
-
-                if (valPasswordSubstring[f] == passwordComparison[f])
+                //Console.Write(passwordComparison);
+                for (int f = 1; f < password_For_validation.Length; f++)
                 {
-                    isvalid_SpeChars = true;
-
+                    //Console.Write(f);
+                    if (valPasswordSubstring[f].Equals(passwordComparison[f]) || passwordComparison.Equals(valPasswordSubstring[f])) 
+                    {
+                        //Console.WriteLine("HELLO");
+                        // isvalid_SpeChars = true;
+                        CharCounter++;
+                    }
                 }
 
 
-
-            }
-
-
-            if (isvalid_Length == true && isvalid_SpeChars == true) {
-                isvalid_Password = true;
-            }
-            else
-            {
-                isvalid_Password = false;
             }
 
             Console.Write("\n\t### PASSWORD VALIDATION RESULTS ###");
-            Console.Write("\n\t" + password_For_validation + "::" + " Valid? : "+ isvalid_Password + "\n");
+            Console.Write("\n\t" + password_For_validation + "::" + " Valid? : " + isvalid_Password + "\n");
+
+            if (password_For_validation.Length >= 8 && CharCounter > 1) {
+                isvalid_Password = true;
+            }
+            else if (password_For_validation.Length < 8) {
+                isvalid_Password = false;
+                Console.Write("\n\tPASSWORD TOO SHORT");
+                
+            }
+            else if (CharCounter < 1) {
+                isvalid_Password = false;
+                Console.Write("\n\tNOT ENOUGH SPECIAL CHARACTERS/NUMBERS");
+            }
+            else{
+                isvalid_Password = false;
+            }
+         
+
+           
 
             MenuOption();
 
