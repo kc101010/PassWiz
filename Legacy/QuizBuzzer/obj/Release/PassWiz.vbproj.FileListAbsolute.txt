@@ -1,0 +1,15 @@
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.vbprojAssemblyReference.cache
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.vbproj.GenerateResource.cache
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.vbproj.CoreCompileInputs.cache
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.exe.config
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.exe.manifest
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.application
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.exe
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.pdb
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\bin\Release\PassWiz.xml
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.Resources.resources
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.exe.manifest
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.application
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.exe
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.xml
+C:\Programming Things\TOOLS\QuizBuzzer\QuizBuzzer\obj\Release\PassWiz.pdb
