@@ -8,14 +8,15 @@ PassWiz is a basic password utility which generates passwords along with other f
 
 <<< IMPORTANT NOTES >>>
 
-PassWiz has currently only been tested on Windows Machines
-PassWiz requires Microsoft's .NET framework(4.6.1) runtime to be installed on the machine (Can be downloaded here: https://dotnet.microsoft.com/download/dotnet-framework/net472 )
+PassWiz has currently been tested on Windows and Linux machines.
 The only site to download the program is itch.io, this is where all following versions will be hosted.
 
 
 <<< Getting Started >>>
 
 - Windows -
+ 
+ !!! This version requires Microsoft's .NET framework(4.6.1) runtime to be installed on the machine (Can be downloaded here: https://dotnet.microsoft.com/download/dotnet-framework/net472 ) 
 
 After downloading the folder from 'https://kc101010.itch.io/passwiz-password-generator'
 1. Copy the ZIP folder to where you wish to install the program
