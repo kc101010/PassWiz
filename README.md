@@ -30,7 +30,7 @@ After downloading the folder from 'https://kc101010.itch.io/passwiz-password-gen
 2. Extract the ZIP folder
 3. Open terminal and use cd to navigate to PassWiz 1/Application Files/
 4. Open one of the version files (I recommend opening the latest version)
-5. In cmd run "wine PassWiz.exe.deploy"
+5. In Terminal run "wine PassWiz.exe.deploy"
 
 The application will run normally though actions normally performed during installation and some others may not properly work. Other methods may alleviate these issues.
 
