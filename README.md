@@ -63,7 +63,7 @@ The application is never properly installed so files can simply be deleted.
 
 If you have any issues or questions, please contact me at the following;
 
-	kcTranslationServices@gmx.com
+	kcTranslationServices<(at)>gmx.com
 	https://kc101010.itch.io/passwiz-password-generator
 
 
